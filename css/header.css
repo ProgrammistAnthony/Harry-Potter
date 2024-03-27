@@ -1,0 +1,66 @@
+.HP__header {
+}
+.HP__content {
+}
+.HP__text {
+    color: #000;
+    margin-top: 60px;
+}
+.HP__title {
+    font-size: 64px;
+    font-weight: 700;
+    letter-spacing: -1.28px;
+}
+.HP__subtitle {
+    font-size: 21px;
+    line-height: 36px; 
+}
+.content__inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+.input__box {
+    display: flex;
+    flex-direction: column;
+}
+.input__text {
+    color: #818182;
+    font-size: 16px;
+    line-height: 28px; 
+}
+.content__input {
+    width: 452px;
+    border-radius: 4px;
+    border: 1px solid #CED4DA;
+    background: #FFF;
+    padding: 9px 18px;
+    color: #ABB5BE;
+    font-size: 16px;
+    line-height: 21px; 
+}
+.content__input::placeholder{
+    color: #ABB5BE;
+    font-size: 16px;
+    line-height: 21px; 
+}
+.input__select{
+    max-width: 216px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #CED4DA;
+    background: #FFF;
+    padding: 9px 18px;
+    color: #ABB5BE;
+    font-size: 16px;
+    line-height: 21px; 
+}
+.input__select::placeholder{
+    color: #ABB5BE;
+    font-size: 16px;
+    line-height: 21px;
+}
+.HP__hr {
+    background: #DEE2E6;
+    margin-top: 40px;
+}

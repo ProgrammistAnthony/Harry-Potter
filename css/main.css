@@ -1,0 +1,73 @@
+.main {
+}
+.main__cards {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.main__card {
+    border-radius: 4px;
+    border: 1px solid #DEE2E6;
+    background: #FFF;
+    max-width: 334px;
+    width: 100%;
+    margin: 0 0 20px 0;
+}
+.img__box {
+    background-color: #f2f2f2;
+    height: 192px;
+}
+.card__img {
+    width: 100%;
+    object-fit: cover;
+    height: 192px;
+    object-position: center 30%;
+}
+.card__about {
+    color: #152536;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 24px;
+}
+.card__name {
+    color: #152536;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: normal;
+}
+.card__actor {
+}
+.card__gender {
+}
+.card__house {
+}
+.card__wand {
+}
+.alive {
+}
+.test{
+    background-color: #f2f2f2; 
+    height: 192px;
+}
+
+
+@media (max-width: 737px) {
+    .main__cards{
+        justify-content: center;
+    }
+    .content__inputs{
+        flex-direction: column;
+    }
+    .input__text{
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .content__input{
+        max-width: 432px;
+        width: 100%;
+    }
+    
+}
